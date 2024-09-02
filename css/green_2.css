@@ -1,0 +1,168 @@
+/* list */
+nav {
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 64%;
+    padding: 3%;
+    background-color:rgba(152, 167, 117, 0.78); /*#98a775; #a0a384,  */
+    font-size: 2vh;
+}
+
+nav > ul, nav ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav > ul {
+    margin-left: 10%;
+}
+
+nav > ul > li > a:first-of-type {
+    display: block;
+    margin-top: 2.5vh;
+}
+
+nav ul > li:hover {
+    list-style-image: url("../images/selector_forest.png");
+    color:rgb(210, 206, 199);
+}
+
+nav li > ol {
+    list-style-image: none;
+    font-size: 85%;
+}
+
+nav li > ol > li:hover {
+    list-style-image: url("../images/selector_forest.png");
+    color:rgb(210, 200, 199);
+}
+
+nav ol {
+    margin-left: 10%;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* list end */
+
+/* tooltip */
+
+.tooltip {
+    display:initial;
+    position:relative;
+    border-bottom:1px dotted #666;
+    text-align:left;
+}
+
+.tooltip .bottom {
+    min-width:500px; 
+    top:5px;
+    left:50%;
+    transform:translate(-50%, 0);
+    padding:10px 20px;
+    color:#1b160d;
+    background-color:rgba(51, 153, 0, 0.9);
+    font-weight:normal;
+    font-size:23px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    border:2px solid #420303;box-shadow:0 2px 8px rgba(0,0,0,0.5);
+    visibility:hidden; opacity:0; transition:opacity 0.8s;
+}
+
+.tooltip:hover .bottom {
+    visibility:visible; opacity:1;
+}
+
+.tooltip .bottom i {
+    position:absolute;
+    bottom:100%;
+    left:50%;
+    margin-left:-12px;
+    width:24px;
+    height:12px;
+    overflow:hidden;
+}
+
+.tooltip .bottom i::after {
+    content:'';
+    position:absolute;
+    width:12px;
+    height:12px;
+    left:50%;
+    transform:translate(-50%,50%) rotate(45deg);
+    background-color: rgba(51, 153, 0, 0.9);
+    border:1px solid #330000;box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}
+
+/* tooltip end */
+
+.smallPS{
+    width: 5.50%;
+    height: auto;
+}
+.small{
+    width: 30.50%;
+    height: auto;
+    
+}
+.picfix{
+    height: 55px;
+}
+
+
+/* feedback */
+
+#feedback {
+    box-sizing: border-box;
+    position: absolute;
+    padding: 1%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 32%;
+    background-color:rgba(152, 167, 117, 0.75);
+    text-align: justify;
+    overflow: hidden;
+    font-size: 1.4vh;
+    
+}
+
+#feedbackbutton {
+    bottom: 10px;
+    padding-bottom: 0%;
+    padding-top: 2.1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: 2px solid rgb(61, 50, 30);
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    height: 18px;
+    width: 69%;
+    background-color: rgba(152, 167, 117, 0.78);
+    position: relative;
+    left: 12%;
+
+}
+
+.feedsize{
+    font-size: 1.7vh;
+}
+
+/* feeback end */
+
+* {
+    color: rgb(27, 22, 13); /* rgb(61, 50, 30) */
+    font-family: Mainfont;
+    
+    
+} 
+

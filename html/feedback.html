@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="english">
+<head>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" href="../css/mainstyle.css" type="text/css">
+    <title> Warhammer Vermintide 2 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <a href="https://www.vermintide.com/"><img id="logo" src="../images/logo.png" alt="logo" class="zoom-box"></a>
+        <h1>Warhammer Vermintide 2</h1>
+    </header>
+
+    <div id="sidewrapper">
+        <nav class="border">
+            <ul>
+                <li class="zoom-box">
+                    <a href="../index.html">Home</a>
+                </li>    
+                <li class="zoom-box">
+                    <a href="../html/green.html">Forest archetypes</a>
+                </li>
+                <li class="zoom-box">
+                    <a href="../html/war.html">War archetypes</a>
+                </li>
+                <li class="zoom-box">
+                    <a href="../html/fire.html">Aqshy archetypes</a>
+                </li>
+                <li class="zoom-box">
+                    <a  href="../html/dark.html">Shade archetype</a>
+                </li>
+            </ul>
+        </nav>
+                
+        <div id="feedback" class="border">
+            <p class="feedsize">I would love to hear your opinion!</p>
+            <div>
+                <p class="feedsize">Click here to send your feedback:</p>
+                <a href="#">
+                    <div id="feedbackbutton" class="zoom-box">
+                        Feedback
+                    </div>
+                </a>
+            </div>
+        </div>        
+    </div>
+
+<main class="bordered" >
+    <form>
+        <label>Name: <input type="text" value="" placeholder="Name"> </label>
+
+        <br>
+
+        <label>Gender: </label>
+
+        <input type="radio" id="radio1id1" name="radio1" value="1" />
+        <label for="radio1id1">Male </label>
+
+
+        <input type="radio" id="radio1id2" name="radio1" value="2" />
+        <label for="radio1id2">Female </label>
+
+
+        <input type="radio" id="radio1id3" name="radio1" value="3"/>
+        <label for="radio1id3">Other </label>
+
+
+        <input type="radio" id="radio1id4" name="radio1" value="4" style="display: none" checked />
+        <label style="display: none"  for="radio1id4">Attack helicopter </label>
+
+        <br>
+
+        <label>Date of Birth: <input type="date"></label>
+        <br>
+        <label>E-mail: <input type="email" placeholder="E-mail"></label>
+        <br>
+        <label>Your feedback: <br> <textarea name="feedback" rows="5" cols="38"></textarea> </label>
+
+        <br>
+
+        <input type="submit" value="Send" id="submit" class="zoom-box">
+    </form>
+</main>
+<img id="altbackgrounding" src="../images/background.jpg" alt="bg">
+</body>
+</html>
